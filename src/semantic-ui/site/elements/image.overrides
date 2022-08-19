@@ -12,6 +12,7 @@ Image Overrides - REACT-INVENIO-APP-ILS
     width: auto !important;
     height: 200px !important;
     background: none !important;
+    box-shadow: 0 20px 10px -17px rgba(89, 89, 89);
   }
 }
 
@@ -27,5 +28,6 @@ Image Overrides - REACT-INVENIO-APP-ILS
   img {
     width: auto !important;
     height: 200px !important;
+    box-shadow: 0 20px 10px -17px rgba(89, 89, 89);
   }
 }
