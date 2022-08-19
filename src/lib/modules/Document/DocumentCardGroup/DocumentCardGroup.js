@@ -66,7 +66,13 @@ class DocumentCardGroup extends Component {
           <Divider hidden />
           <Loader isLoading={isLoading}>
             <Error error={error}>
-              <Card.Group stackable doubling centered itemsPerRow={5}>
+              <Card.Group
+                stackable
+                doubling
+                centered
+                itemsPerRow={5}
+                className="card-group-image-cover"
+              >
                 {this.renderCards()}
               </Card.Group>
             </Error>

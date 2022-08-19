@@ -22,3 +22,10 @@ Image Overrides - REACT-INVENIO-APP-ILS
       drop-shadow(0px -1px 0px #eee) drop-shadow(-1px 0px 0px #eee);
   }
 }
+
+.card-group-image-cover {
+  img {
+    width: auto !important;
+    height: 200px !important;
+  }
+}
