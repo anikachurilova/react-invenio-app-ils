@@ -2,7 +2,7 @@
 Image Overrides - REACT-INVENIO-APP-ILS
 *******************************/
 
-.document-panel .ui.image.large {
+.document-series-panel .ui.image.large {
   width: 350px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
@@ -22,13 +22,5 @@ Image Overrides - REACT-INVENIO-APP-ILS
   .image.image-cover {
     filter: drop-shadow(0px 1px 0px #eee) drop-shadow(1px 0px 0px #eee)
       drop-shadow(0px -1px 0px #eee) drop-shadow(-1px 0px 0px #eee);
-  }
-}
-
-.card-group-image-cover {
-  img {
-    width: auto !important;
-    height: 200px !important;
-    box-shadow: 0 20px 10px -17px rgba(89, 89, 89);
   }
 }

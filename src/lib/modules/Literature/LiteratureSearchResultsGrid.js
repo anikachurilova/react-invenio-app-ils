@@ -23,22 +23,12 @@ export const LiteratureSearchResultsGrid = ({
   return (
     <>
       <Media greaterThanOrEqual="largeScreen">
-        <Card.Group
-          doubling
-          stackable
-          itemsPerRow={5}
-          className="card-group-image-cover"
-        >
+        <Card.Group doubling stackable itemsPerRow={5}>
           {cards}
         </Card.Group>
       </Media>
       <Media lessThan="largeScreen">
-        <Card.Group
-          doubling
-          stackable
-          itemsPerRow={3}
-          className="card-group-image-cover"
-        >
+        <Card.Group doubling stackable itemsPerRow={3}>
           {cards}
         </Card.Group>
       </Media>
