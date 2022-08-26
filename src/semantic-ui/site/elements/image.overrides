@@ -2,7 +2,7 @@
 Image Overrides - REACT-INVENIO-APP-ILS
 *******************************/
 
-.document-series-panel .ui.image.large {
+.literature-panel .ui.image.large {
   width: 350px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
